@@ -17,17 +17,17 @@ double Calculate_Complex_Percent_Function(double a, double y,int d ) {
     void do_important_job( )
     {
       int period, action ;
-        Scanner abcdef = new Scanner(System.in); System.out.println("Введите сумму вклада в рублях:") ;
-      int amount = abcdef.nextInt(); System.out.println("Введите срок вклада в годах:") ;
+        Scanner abcdef = new Scanner(System.in); System.out.println("Enter the amount of the deposit in dollars:");
+      int amount = abcdef.nextInt(); System.out.println("Enter the length of the deposit in years:");
         period = abcdef.nextInt( );
-      System.out.println   (   "Выберите type вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
+      System.out.println   ("Select the type of the deposit, 1 — a deposit with an ordinary interest, 2 — a capitalization deposit:");
         action = abcdef.nextInt();
         double outDoubleVar = 0;
         if (action ==1) outDoubleVar = Calculate_Simple_Percent_Function(amount, 0.06, period);
         else if (action == 2)
         {
             outDoubleVar = Calculate_Complex_Percent_Function(amount, 0.06, period); }
-        System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " + outDoubleVar);
+        System.out.println("The yield of the deposit: " + amount + " will turn into " + outDoubleVar + " in " + period + " years." );
     }
 public static void main(String[] args)
     {
