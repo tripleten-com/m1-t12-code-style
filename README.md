@@ -12,7 +12,6 @@ To make the copy of a repository, click on the Fork button in the upper right co
 Open the Repositories tab on your GitHub page and select the repository you forked on the previous stage. Click on the Code button in the right part of the page:
 
 ![fork button](https://github.com/practicum-com/public-resources/blob/main/clone.png)
-![fork button](https://user-images.githubusercontent.com/115557216/213199392-6762ec7c-7a27-412e-b854-3cde61fa20dc.png)
 
 
 You will see the window where you can copy the repository address. It'll be necessary for cloning. Now open the command prompt and move to the folder where you're going to save the repository. Enter the git clone command and the address of the repository:
