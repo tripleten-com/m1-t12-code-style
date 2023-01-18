@@ -6,7 +6,7 @@
 
 ![fork button](https://raw.githubusercontent.com/PraktikumJava/public-resources/master/fork.png)
 
-## Клонирование репозитория
+## Cloning
 
 На вашей странице GitHub откройте вкладку Repositories и выберите репозиторий, который вы форкнули на предыдущем этапе. Нажмите кнопку Code в правой части страницы:
 
