@@ -20,7 +20,7 @@ double Calculate_Complex_Percent_Function(double a, double y,int d ) {
         Scanner abcdef = new Scanner(System.in); System.out.println("Введите сумму вклада в рублях:") ;
       int amount = abcdef.nextInt(); System.out.println("Введите срок вклада в годах:") ;
         period = abcdef.nextInt( );
-      System.out.println   (   "Выберите тип вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
+      System.out.println   (   "Выберите type вклада, 1 - вклад с обычным процентом, 2 - вклад с капитализацией:");
         action = abcdef.nextInt();
         double outDoubleVar = 0;
         if (action ==1) outDoubleVar = Calculate_Simple_Percent_Function(amount, 0.06, period);
